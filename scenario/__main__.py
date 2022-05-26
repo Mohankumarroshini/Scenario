@@ -136,7 +136,7 @@ buttons = [
     [
                         InlineKeyboardButton(
                             text=f"⚓ ❄️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❄️ ⚓",
-                            url="https://t.me/ScenarioXbot?startgroup=true")
+                            url="https://t.me/sivanprobot?startgroup=true")
                     ],
                    [
                        InlineKeyboardButton(text="☘️ ᴀʙᴏᴜᴛ ☘️", callback_data="scenario_"),
@@ -352,7 +352,7 @@ def scenario_about_callback(update, context):
     first_name = update.effective_user.first_name
     if query.data == "scenario_":
         query.message.edit_text(
-            text=f"Hello dear {first_name}, My name is Scenario. A Powerful Telegram Group Management Bot.\n My developer - @TeamScenario\n\nIf you have any Question, You can join our support chat. \nMy developer will help you. \nCheck Link Below",
+            text=f"Hello dear {first_name}, My name is sivan. A Powerful Telegram Group Management Bot.\n My developer - @My_Dear_Lightbright\n\nIf you have any Question, You can join our support chat. \nMy developer will help you. \nCheck Link Below",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
