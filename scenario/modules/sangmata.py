@@ -8,9 +8,9 @@ import asyncio
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl import functions, types
 
-from MashaRoBot.events import register
-from MashaRoBot import telethn
-from MashaRoBot import ubot
+from scenario.events import register
+from scenario import telethn
+from scenario import ubot
 
 
 async def is_register_admin(chat, user):
