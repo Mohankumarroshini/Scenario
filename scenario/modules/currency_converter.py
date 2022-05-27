@@ -64,4 +64,4 @@ Here is the help for the Currency module:
 /cash 1 USD INR - convert usd to INR
 """
 
-__mod_name__ = "Currency"
+__mod_name__ = "ᴄᴜʀʀᴇɴᴄʏ💲"
