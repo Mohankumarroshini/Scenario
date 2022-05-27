@@ -174,4 +174,4 @@ __help__ = """
 and Automatically openned at 6am(IST) To Prevent Night Spams.
 """
 
-__mod_name__ = "NightMode"
+__mod_name__ = "ɴɪɢʜᴛᴍᴏᴅᴇ🌃"
