@@ -61,4 +61,4 @@ __help__ = """
 /book name - Get information about some book 
 """
 
-__mod_name__ = "Books"
+__mod_name__ = "ʙᴏᴏᴋs📖"
