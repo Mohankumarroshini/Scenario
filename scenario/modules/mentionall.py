@@ -56,4 +56,4 @@ async def mentionall(event):
         usrnum = 0
         usrtxt = ""
         
-__mod_name__ = "Mention All"
+__mod_name__ = "ᴛᴀɢ ᴀʟʟ🔖"
