@@ -145,5 +145,5 @@ dispatcher.add_handler(
 )
 dispatcher.add_handler(DisableAbleCommandHandler(["sl", "langcodes"], sl, pass_args=True, run_async=True))
 
-__mod_name__ = "Translator"
+__mod_name__ = "ᴛʀᴀɴsʟᴀᴛᴏʀ🈵"
 __command_list__ = ["tr", "tl", "lang", "languages", "splcheck", "tts"]
