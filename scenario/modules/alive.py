@@ -37,4 +37,4 @@ __help__ = """
 /alive - Alive status
 """
 
-__mod_name__ = "Alive"
+__mod_name__ = "ᴀʟɪᴠᴇ😎"
