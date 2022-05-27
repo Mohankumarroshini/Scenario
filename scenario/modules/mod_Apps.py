@@ -77,4 +77,4 @@ __help__ = """
 /mod appname - Get cracked version of that application.
 """
 
-__mod_name__ = "Mod"
+__mod_name__ = "ᴍᴏᴅ ᴀᴘᴘ🆓"
