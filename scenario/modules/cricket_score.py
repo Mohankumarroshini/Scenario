@@ -51,4 +51,4 @@ __help__ = """
 /cs - get cricket scores!
 """
 
-__mod_name__ = "Cricket"
+__mod_name__ = "ᴄʀɪᴄᴋᴇᴛ🏏"
