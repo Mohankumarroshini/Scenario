@@ -448,7 +448,7 @@ async def cb_handler(client: pgram, query: CallbackQuery):
             await removebg_sticker(client, query.message)
 
 
-__mod_name__ = "Image Editor"
+__mod_name__ = "ɪᴍɢ ᴇᴅɪᴛᴏʀ🌪️"
 __help__ = f"""
 {BOT_NAME} have some advanced image editing tools inbuilt
 Bright, Circle, RemBG, Blur, Border, Flip, Glitch, Sticker maker and more
