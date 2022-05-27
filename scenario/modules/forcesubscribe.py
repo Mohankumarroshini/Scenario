@@ -212,4 +212,4 @@ Note: Only creator of the group can setup me and i will not allow force subscrib
 Note: /forcesub is an alias of /forcesubscribe
  
 """
-__mod_name__ = "F-Sub"
+__mod_name__ = "ғ-sᴜʙ🤐"
