@@ -621,7 +621,7 @@ __help__ = """
   ➢ `/tiny`*:* Get small version of that sticker only works with images or still stickers, gif/videos not supported!
 """
 
-__mod_name__ = "Stickers"
+__mod_name__ = "sᴛʀɪᴄᴋᴇʀs🔥"
 STICKERID_HANDLER = DisableAbleCommandHandler("stickerid", stickerid, run_async=True)
 GETSTICKER_HANDLER = DisableAbleCommandHandler("getsticker", getsticker, run_async=True)
 KANG_HANDLER = DisableAbleCommandHandler(["kang", "steal"], kang, admin_ok=True, run_async=True)
