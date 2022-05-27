@@ -42,4 +42,4 @@ __help__ = """
 /covid country name - Get stats of covid for that country only.
 """
 
-__mod_name__ = "Covid"
+__mod_name__ = "ᴄᴏᴠɪᴅ🦠"
