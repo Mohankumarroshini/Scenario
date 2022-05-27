@@ -334,7 +334,7 @@ size=200x200&charset-source=UTF-8&charset-target=UTF-8\
     await qrcode.reply("Created QRCode in {} seconds".format(duration))
     await sleep(5)
 
-__mod_name__ = "Google"
+__mod_name__ = "ɢᴏᴏɢʟᴇ🧠"
 
 __help__ = """
   ➢ `/google <text>` :- Perform a google search
