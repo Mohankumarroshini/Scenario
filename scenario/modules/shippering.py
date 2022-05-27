@@ -82,4 +82,4 @@ __help__ = """
 /couples - choose couple of the day.
 """
 
-__mod_name__ = "Couples"
+__mod_name__ = "ᴄᴏᴜᴘʟᴇs👩‍❤️‍💋‍👨"
