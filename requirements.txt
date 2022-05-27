@@ -94,3 +94,5 @@ googletrans
 youtube_search_python
 httpx
 gitpython
+asyncio
+html2text
