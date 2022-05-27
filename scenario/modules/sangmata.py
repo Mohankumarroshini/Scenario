@@ -1,14 +1,22 @@
+# Copyright (C) 2021 ElizaRobot
+# made by @Eliza_Robot on Telegram. 
+# github account : https://github.com/kira-36/
+# This file is part of ElizaRobot (Telegram Bot)
+
+import datetime 
+import asyncio
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl import functions, types
 
-from scenario.events import register as scenario
-from scenario import telethn, ubot
+from MashaRoBot.events import register
+from MashaRoBot import telethn
+from MashaRoBot import ubot
 
 
 async def is_register_admin(chat, user):
 
     if isinstance(chat, (types.InputPeerChannel, types.InputChannel)):
-
+ 
         return isinstance(
             (
                 await telethn(functions.channels.GetParticipantRequest(chat, user))
@@ -35,17 +43,18 @@ async def silently_send_message(conv, text):
     return response
 
 
-@scenario(pattern="^/sg ?(.*)")
+@register(pattern="^/sg ?(.*)")
 async def _(event):
 
     if event.fwd_from:
 
         return
 
-    if event.is_group and not await is_register_admin(
-        event.input_chat, event.message.sender_id
-    ):
-        return
+    if event.is_group:
+        if await is_register_admin(event.input_chat, event.message.sender_id):
+            pass
+        else:
+            return
     if not event.reply_to_msg_id:
 
         await event.reply("```Reply to any user message.```")
@@ -62,6 +71,7 @@ async def _(event):
 
     chat = "Sangmatainfo_bot"
     uid = reply_message.sender_id
+    reply_message.sender
 
     if reply_message.sender.bot:
 
@@ -90,3 +100,11 @@ async def _(event):
             return
         await lol.edit(f"{responses.text}")
         # await lol.edit(f"{response.message.message}")
+
+__help__ = """
+  • /sg*:* Get A Name History Of User
+          
+          🥺 This module is not fully optimised. Suggest your commans in @Mastro_Support
+"""
+
+__mod_name__ = "sᴀɴɢᴍᴀᴛᴀ✨"
