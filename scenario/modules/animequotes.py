@@ -6,11 +6,11 @@ from telegram import ParseMode, Update, ChatPermissions
 from telegram.ext import CallbackContext, run_async
 from telegram.error import BadRequest
 
-import MashaRoBot.modules.animequotes_strings as animequotes_strings
-from MashaRoBot import dispatcher
-from MashaRoBot.modules.disable import DisableAbleCommandHandler
-from MashaRoBot.modules.helper_funcs.chat_status import (is_user_admin)
-from MashaRoBot.modules.helper_funcs.extraction import extract_user
+import scenario.modules.animequotes_strings as animequotes_strings
+from scenario import dispatcher
+from scenario.modules.disable import DisableAbleCommandHandler
+from scenario.modules.helper_funcs.chat_status import (is_user_admin)
+from scenario.modules.helper_funcs.extraction import extract_user
 
 @run_async
 def animequotes(update: Update, context: CallbackContext):
