@@ -19,7 +19,7 @@ async def _(event):
     await event.reply(mentions)
     await event.delete()
 
-__mod_name__ = "Tagger"
+__mod_name__ = "ᴛᴀɢ ᴀʟʟ🔖"
 __help__ = """
   ➢ `/tagall` : Tag everyone in a chat.
   ➢ `/tagall` : Mention All Members
