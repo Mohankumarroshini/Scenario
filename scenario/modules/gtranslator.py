@@ -83,7 +83,7 @@ def gtts(update, context):
 API_KEY = "6ae0c3a0-afdc-4532-a810-82ded0054236"
 URL = "http://services.gingersoftware.com/Ginger/correct/json/GingerTheText"
 
-def sl(update: Update):
+def sl(update: Update, _):
     message = update.effective_message
     text = "https://telegra.ph/Lang-Codes-03-19-3"
     update.message.reply_text(text)
@@ -120,7 +120,7 @@ __help__ = """
 Use this module to translate stuff!
 
 *Commands:*
-   ➢ `/langs: List of all language code to translates!
+   ➢ `/langs`: List of all language code to translates!
    ➢ `/tl` (or `/tr`): as a reply to a message, translates it to English.
    ➢ `/tl <lang>`: translates to <lang>
    
