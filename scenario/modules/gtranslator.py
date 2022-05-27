@@ -83,6 +83,10 @@ def gtts(update, context):
 API_KEY = "6ae0c3a0-afdc-4532-a810-82ded0054236"
 URL = "http://services.gingersoftware.com/Ginger/correct/json/GingerTheText"
 
+def sl(update: Update):
+    message = update.effective_message
+    text = "https://telegra.ph/Lang-Codes-03-19-3"
+    update.message.reply_text(text)
 
 @typing_action
 def spellcheck(update, _):
@@ -123,8 +127,8 @@ Use this module to translate stuff!
 eg: `/tl ja`: translates to Japanese.
    ➢ `/tl <source>//<dest>`: translates from <source> to <lang>.
 
-• List of supported languages for translation. ↓
-https://telegra.ph/Lang-Codes-03-19-3
+• Fir list of supported languages for translation. ↓
+  Send /sl
 """
 
 dispatcher.add_handler(
@@ -139,6 +143,8 @@ dispatcher.add_handler(
 dispatcher.add_handler(
     DisableAbleCommandHandler("splcheck", spellcheck, run_async=True)
 )
+dispatcher.add_handler(
+    DisableAbleCommandHandler(["sl", "langcodes"], sl, pass_args=True, run_async=True)
 
 __mod_name__ = "Translator"
 __command_list__ = ["tr", "tl", "lang", "languages", "splcheck", "tts"]
