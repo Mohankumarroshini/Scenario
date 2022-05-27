@@ -123,7 +123,8 @@ Use this module to translate stuff!
 eg: `/tl ja`: translates to Japanese.
    ➢ `/tl <source>//<dest>`: translates from <source> to <lang>.
 
-• [List of supported languages for translation](https://telegra.ph/Lang-Codes-03-19-3)
+• List of supported languages for translation. ↓
+https://telegra.ph/Lang-Codes-03-19-3
 """
 
 dispatcher.add_handler(
