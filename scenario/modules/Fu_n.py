@@ -30,7 +30,7 @@ ANIMEQUOTES_HANDLER = DisableAbleCommandHandler("fun", animequotes)
 
 dispatcher.add_handler(ANIMEQUOTES_HANDLER)
 
-__mod_name__ = "ᴍᴇᴍᴇs😎"
+__mod_name__ = "ᴛᴀᴍ ᴍᴇᴍᴇ😎"
 __command_list__ = [
     "fun"
 ]
